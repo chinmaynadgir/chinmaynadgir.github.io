@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinmay - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-chinmay.png" alt="Chinmay S Nadgir" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chinmay S Nadgir">Chinmay S Nadgir</h1>
+
+          <p class="title">MS Data Science @ UCSD</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:chinmaynadgir@gmail.com" class="contact-link">chinmaynadgir</a>
+            </div>
+
+          </li>
+
+          <!-- availability -->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Availability</p>
+
+              <address>Available: Summer 2026</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>La Jolla, San Diego, CA, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chinmaynadgir" target="_blank" class="social-link" rel="noopener">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/" target="_blank" class="social-link" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Graduate student at UC San Diego (MS Data Science), focused on practical machine learning, agentic AI, and scalable data engineering.
+          </p>
+
+          <p>
+            3+ years experience, building production systems at Oracle: retrieval-augmented generation (RAG), LLM fine-tuning, and robust ETL/data automation for enterprise use cases.
+            Proficient in Python, SQL, pandas, PyTorch, React, and cloud tooling (OCI/GCP/AWS). Experienced with full-lifecycle ML engineering: data wrangling, modeling, evaluation, deployment, and monitoring.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Training and deploying ML models , sustainance and monitoring using multiple metrics.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="engineering icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software & Data Sciences</h4>
+
+                <p class="service-item-text">
+                  Scalable data pipelines, Enrichment of data , microservices, and CI/CD for production ML systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="cloud icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud & RPA</h4>
+
+                <p class="service-item-text">
+                  Containerization, orchestration, and cloud infrastructure on OCI developing automation workflows using RPA Framework.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="research icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Agentic AI and Research</h4>
+
+                <p class="service-item-text">
+                  Multi Agentic Frameworks , Fine Tuning , retrieval-augmented generation, Vector embedding, MCP and research in other nascent technologies.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <a href="./assets/files/recommendation_1.pdf" target="_blank" class="testimonial-link">
+
+                <div class="content-card">
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="KrishnaPrasad" width="60">
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title">KrishnaPrasad, Sr. Director, Chief of Staff,  CoreAI, LinkedIn</h4>
+
+                  <div class="testimonials-text">
+                      <p>
+                        Applying theoretical concepts to practical,industry-relevant solutions.
+                      </p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="testimonials-item">
+
+                <div class="content-card">
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Vikram Bheemaiah" width="60">
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title">Vikram Bheemaiah , Sr Director of Development, Oracle</h4>
+
+                  <div class="testimonials-text">
+                    <p>Chinmay consistently brought clarity, ownership, and creativity to every project.</p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="testimonials-item">
+              <a href="./assets/files/recommendation_3.pdf" target="_blank" class="testimonial-link">
+
+                <div class="content-card">
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-4.png" alt="Ganeshayya S" width="60">
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title">Dr Ganeshayya S, Proffessor</h4>
+
+                  <div class="testimonials-text">
+                    <p>Strong dedication to remaining current with new emerging trends.</p>
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="testimonials-item">
+              <a href="./assets/files/recommendation_2.pdf" target="_blank" class="testimonial-link"></a>
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Pradeep Kumar" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pradeep Kumar D, Research Mentor</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Demonstrated excellent leadership in research group and seminars.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                    Recommendation placeholder text. Please open the linked recommendation PDFs for full letters.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of California San Diego — MS Data Science</h4>
+
+              <span>2025 — Current</span>
+
+              <p class="timeline-text">
+                MS Data Science candidate focused on applied ML, agentic AI, and scalable data engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ramaiah Institute of Technology — B.E. Computer Science</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering in Computer Science and Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Technology Madras — Diploma in Data Science</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Distance program in Data Science.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer, Oracle — Bangalore, India</h4>
+
+              <span>Jan 2023 — Sep 2025</span>
+
+              <p class="timeline-text">
+                Designed an Agentic AI Framework integrating planners, agents, and orchestrators; deployed RAG pipelines; developed embedding-based classifiers and LLM-driven report generators; automated backend jobs and improved CI/CD reliability.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Development Intern, Cuspera, Inc — Santa Clara, CA</h4>
+
+              <span>Aug 2022 — Jan 2023</span>
+
+              <p class="timeline-text">
+                Automated lead report aggregation, built interactive data visualizations, and implemented testing for data reliability.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Intern, Vijayalaxmi Gears — Hubli, India</h4>
+
+              <span>Jun 2021 — Sep 2021</span>
+
+              <p class="timeline-text">
+                Preprocessed and analyzed training-center data; applied statistical and ML methods to identify attendance and placement patterns.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming — Python, Java, C++, JavaScript, Go, SQL, Bash</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML — PyTorch, TensorFlow, LangChain, RAG, LLMs</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Engineering — ETL, pandas, SQL, pipelines, MLflow</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud & DevOps — GCP, AWS, OCI, Docker, Kubernetes, CI/CD</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Recommendations</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certifications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Recommendations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certifications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div id="projects-grid">
+            <ul class="project-list">
+
+              <!-- Projects (category: projects) -->
+              <li class="project-item active" data-filter-item data-category="projects">
+                <a href="https://www.oracle.com/construction-engineering/portfolio-management/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/portfolio.webp" alt="Portfolio Scorecard UI" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Portfolio Scorecard UI Enhancement</h3>
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="projects">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-2.png" alt="Agentic AI Framework" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Agentic AI Framework</h3>
+                  <p class="project-category">AI/ML</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="projects">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-3.jpg" alt="Risk Classification Engine" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Risk Classification & Recommendation Engine</h3>
+                  <p class="project-category">Data</p>
+                </a>
+              </li>
+
+              <!-- Recommendations (category: recommendations) -->
+              <li class="project-item" data-filter-item data-category="recommendations">
+                <a href="./assets/files/recommendation_1.pdf" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="document-text-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/avatar-1.png" alt="Recommendation 1" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Krishna Prasad , Senior Director , Core of Staff , LinkedIn</h3>
+                  <p class="project-category">Recommendation</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="recommendations">
+                <a href="./assets/files/recommendation_2.pdf" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="document-text-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/avatar-4.png" alt="Recommendation 2" loading="lazy">
+                  </figure>
+                  <h3 class="project-title"> Pradeep Kumar D, Research Mentor, Professor, Ramaiah Institute</h3>
+                  <p class="project-category">Recommendation</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="recommendations">
+                <a href="./assets/files/recommendation_3.pdf" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="document-text-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/my-avatar.png" alt="Recommendation 3" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Dr.Ganeshayya S, Professor, Ramaiah Institute</h3>
+                  <p class="project-category">Recommendation</p>
+                </a>
+              </li>
+
+              <!-- Certifications (category: certifications) -->
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="./assets/files/GenAICertificate.pdf" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/oracle_logo.jpeg" alt="Oracle Generative AI Cert" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">OCI 2024 Generative AI Certified Professional</h3>
+                  <p class="project-category">Certification — Oracle</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://coursera.org/share/3bfa1043efe5d19e96a086a7fc6e38c5" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/deeplearningai_logo.jpeg" alt="DeepLearning.AI" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Improving Deep Neural Networks — DeepLearning.AI</h3>
+                  <p class="project-category">Certification — DeepLearning.AI</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://drive.google.com/file/d/1pPRS0Ikbx8Xz2TtwY_RY_-nh9pBwP1dd" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/nasscom_india_logo.jpeg" alt="Microsoft AI Classroom" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Microsoft AI Classroom Series</h3>
+                  <p class="project-category">Certification — Microsoft</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://coursera.org/share/296c014e3b0160860fa32abe3528cfbe" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/deeplearningai_logo.jpeg" alt="Neural Networks" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Neural Networks and Deep Learning — DeepLearning.AI</h3>
+                  <p class="project-category">Certification — DeepLearning.AI</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://www.coursera.org/account/accomplishments/certificate/LARJQMGXKJX3" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/california_institute_of_the_arts_logo.jpeg" alt="CalArts Graphic Design" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Fundamentals of Graphic Designing — CalArts</h3>
+                  <p class="project-category">Certification — CalArts</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://coursera.org/share/527b6c09dc485629250e37b0e9105e35" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/coursera_logo.jpeg" alt="Coursera HTML/CSS/JS" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">HTML, CSS & Javascript for Web Developers — Coursera</h3>
+                  <p class="project-category">Certification — Coursera</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="https://www.qwiklabs.com/public_profiles/cafc0677-5df4-488d-b6e5-be196bbf30c0" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/1631302377898.jpeg" alt="Qwiklabs / Google Cloud" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Google Cloud Program Essentials — Qwiklabs</h3>
+                  <p class="project-category">Certification — Qwiklabs</p>
+                </a>
+              </li>
+
+              <li class="project-item" data-filter-item data-category="certifications">
+                <a href="./assets/files/CertificateOfCompletion_Cert Prep Scrum Master.pdf" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="ribbon-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/files/project_management_institute_logo.jpeg" alt="Qwiklabs / Google Cloud" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Scrum master — Project Management Institute</h3>
+                  <p class="project-category">Certification — LinkedIn</p>
+                </a>
+              </li>
+
+              <!-- Research (category: research) -->
+              <li class="project-item" data-filter-item data-category="research">
+                <a href="https://www.jait.us/show-232-1421-1.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/JAIT.jpg" alt="Subspace Clustering Research" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Adaptive Hybridized Meta-Heuristic Algorithm for Subspace Clustering</h3>
+                  <p class="project-category">Research — Journal of Advances in Information Technology</p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- Grid contains projects, recommendations, certifications, and research items -->
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31694.123456789!2d-117.246000!3d32.861000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbd0a0a9f0f7b%3A0xabcdef1234567890!2sLa%20Jolla%2C%20San%20Diego%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address (e.g. chinmaynadgir@gmail.com)" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

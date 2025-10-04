@@ -1,0 +1,201 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Chinmay S Nadgir
+Chinmay S Nadgir
+MS Data Science @ UCSD — Building ML & agentic AI systems
+
+Show Contacts
+
+Email
+chinmaynadgir@gmail.com
+
+Availability
+Available: Summer 2026
+
+Location
+La Jolla, San Diego, CA
+
+# navbar
+
+About
+Resume
+Portfolio
+Blog
+Contact
+
+# about
+
+About me
+
+Graduate student at UC San Diego (MS Data Science), focused on practical machine learning, agentic AI, and scalable data engineering.
+
+3+ years building production systems at Oracle: retrieval-augmented generation (RAG), LLM fine-tuning, and robust ETL/data automation for enterprise use cases. Proficient in Python, SQL, pandas, PyTorch, React, and cloud tooling (OCI/GCP/AWS).
+
+
+## service
+
+What i'm doing
+
+alt = research icon
+ML & Agent Systems
+Building retrieval-augmented systems, LLM fine-tuning, and agent orchestration for production.
+
+alt = engineering icon
+Software & Data Engineering
+Scalable data pipelines, microservices, and CI/CD for production ML systems.
+
+alt = cloud icon
+Cloud & DevOps
+Containerization, orchestration, and cloud infrastructure on OCI/GCP/AWS.
+
+alt = research icon
+Research & Reproducibility
+Reproducible experiments, documented notebooks, and reproducible ML pipelines.
+
+
+## testimonials
+
+Testimonials
+
+alt = Recommendation 1
+Recommendation Letter 1 (PDF)
+
+alt = Recommendation 2
+Recommendation Letter 2 (PDF)
+
+alt = Recommendation 3
+Recommendation Letter 3 (PDF)
+
+alt = Colleague
+Recommendation placeholder
+Recommendation and testimonial placeholders. Click the recommendation links to open PDF letters.
+
+
+## clients
+
+Clients
+
+alt = client logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+University of California San Diego — MS Data Science
+2025 — Current
+MS Data Science candidate focused on applied ML, agentic AI, and scalable data engineering.
+
+Ramaiah Institute of Technology — B.E. Computer Science
+2019 — 2023
+Bachelor of Engineering in Computer Science and Engineering.
+
+Indian Institute of Technology Madras — Diploma in Data Science
+2023
+Distance program in Data Science.
+
+Experience
+
+Software Developer, Oracle – Bangalore, India
+Jan 2023 – Sep 2025
+Designed an Agentic AI Framework integrating planners, agents, orchestrators to translate user intent into flows. Designed and deployed RAG pipelines with guardrails, improving reliability of RAG enterprise workflows. Developed embedding-based classifiers and a risk recommendation engine. Pioneered LLM-driven report generator and improved CI/CD reliability.
+
+Development Intern, Cuspera, Inc – Santa Clara, CA
+Aug 2022 – Jan 2023
+Automated lead report aggregation from MySQL with Python, built interactive data visualizations, and implemented unit tests for data reliability.
+
+Student Intern, Vijayalaxmi Gears – Hubli, India
+Jun 2021 – Sept 2021
+Preprocessed and analyzed training-center data; applied ML methods to identify patterns behind low attendance and exam failures.
+
+Skills
+
+Programming Languages: Python | Java | C++ | JavaScript | Go | SQL | Bash
+AI/ML Technologies: PyTorch | TensorFlow | LangChain | RAG | LLMs | Embeddings | Prompt Engineering | MLflow
+Software Development: Spring Boot | Microservices | REST APIs | Docker | Kubernetes | CI/CD | Git
+Cloud Infrastructure: GCP | AWS | OCI | Unix/Linux | Jenkins | GitHub Actions
+Data & Algorithms: Data Structures | Algorithms | MySQL | PostgreSQL | Distributed Systems
+
+
+
+# portfolio
+
+Portfolio
+
+All
+Projects
+Applications
+Software / Data
+
+Select category
+All
+Projects
+Recommendations
+Certifications
+
+Select category
+All
+Projects
+Recommendations
+Certifications
+
+
+
+# blog
+
+Blog
+
+alt = Design conferences in 2022
+Design
+Fab 23, 2022
+Design conferences in 2022
+Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+
+alt = Best fonts every designer
+Design
+Fab 23, 2022
+Best fonts every designer
+Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+
+alt = Design digest #80
+Design
+Fab 23, 2022
+Design digest #80
+Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+
+alt = UI interactions of the week
+Design
+Fab 23, 2022
+UI interactions of the week
+Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+
+alt = The forgotten art of spacing
+Design
+Fab 23, 2022
+The Forgotten Art Of Spacing
+Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+alt = Design digest #79
+Design
+Fab 23, 2022
+Design Digest #79
+Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+
+
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
