@@ -953,6 +953,45 @@ main {
 
 .project-item > a { width: 100%; }
 
+.project-card {
+  background: var(--border-gradient-onyx);
+  border: 1px solid var(--jet);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100%;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-card {
+  border-color: var(--orange-yellow-crayola);
+  transform: translateY(-4px);
+}
+
+.project-card .project-title,
+.project-card .project-category {
+  margin-left: 0;
+  text-transform: none;
+}
+
+.project-summary {
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-link {
+  margin-top: auto;
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  display: inline-flex;
+  align-items: center;
+}
+
 .project-img {
   position: relative;
   width: 100%;
